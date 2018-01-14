@@ -8,3 +8,18 @@ collections:
   uploads:
     title: Uploads
     output: true
+  writing:
+      title: writing
+      output: true
+defaults:
+- scope:
+  path: ''
+  type: writing
+values:
+  layout: default
+  title:
+  date:
+  publication:
+  featured: false
+  url: http://google.com
+  image:
