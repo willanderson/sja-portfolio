@@ -13,8 +13,8 @@ collections:
       output: true
 defaults:
 - scope:
-  path: ''
-  type: writing
+    path: ''
+    type: writing
   values:
     layout: default
     title:
