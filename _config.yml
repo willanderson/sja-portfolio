@@ -15,11 +15,11 @@ defaults:
 - scope:
   path: ''
   type: writing
-values:
-  layout: default
-  title:
-  date:
-  publication:
-  featured: false
-  url: http://google.com
-  image:
+  values:
+    layout: default
+    title:
+    date:
+    publication:
+    featured: false
+    url: http://google.com
+    image:
