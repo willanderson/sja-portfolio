@@ -17,9 +17,9 @@ defaults:
     type: writing
   values:
     layout: default
-    title:
-    date:
-    publication:
+    title: 
+    date: 
+    publication: 
     featured: false
     url: http://google.com
-    image:
+    image: 
