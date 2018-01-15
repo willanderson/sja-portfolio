@@ -16,8 +16,8 @@ defaults:
     path: ''
     type: writing
   values:
-    title:
-    publication:
-    date:
-    url:
+    title: 
+    publication: 
+    date: 
+    url: 
     featured: false
