@@ -17,8 +17,7 @@ defaults:
     type: writing
   values:
     name:
+    magazine:
     featured: false
     layout: work
     source: http://google.com
-    thumbnail_path:
-    bg-image: 
