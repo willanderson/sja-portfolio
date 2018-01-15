@@ -17,6 +17,7 @@ defaults:
     type: writing
   values:
     name:
+    date:
     magazine:
     featured: false
     layout: work
