@@ -15,3 +15,10 @@ defaults:
 - scope:
     path: ''
     type: writing
+  values:
+    name:
+    featured: false
+    layout: work
+    source: http://google.com
+    thumbnail_path:
+    bg-image: 
