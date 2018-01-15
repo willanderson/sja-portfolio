@@ -11,3 +11,13 @@ collections:
   writing:
     title: Writing
     output: true
+- scope:
+    path: ''
+    type: works
+  values:
+    name:
+    publication:
+    date:
+    url:
+    featured: false
+    layout: default
