@@ -16,8 +16,8 @@ defaults:
     path: ''
     type: writing
   values:
-    name:
-    magazine:
+    name: 
+    magazine: 
     featured: false
     layout: work
     source: http://google.com
