@@ -11,14 +11,3 @@ collections:
   writing:
     title: Writing
     output: true
-defaults:
-- scope:
-    path: ''
-    type: writing
-  values:
-    name: 
-    publication: 
-    date: 
-    url: 
-    featured: false
-    layout: default
