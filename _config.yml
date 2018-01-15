@@ -16,9 +16,8 @@ defaults:
     path: ''
     type: writing
   values:
-    name:
+    title:
+    publication:
+    date:
+    url:
     featured: false
-    layout: work
-    source: http://google.com
-    thumbnail_path:
-    bg-image: 
