@@ -17,7 +17,6 @@ defaults:
     type: writing
   values:
     name:
-    magazine:
+    publication:
     featured: false
-    layout: work
     source: http://google.com
