@@ -1,5 +1,5 @@
 ---
-title: Sja Site
+title: Sam Anderson
 timezone: UTC
 collections:
   posts:
@@ -11,10 +11,10 @@ collections:
   writing:
     title: Writing
     output: true
-defaults:    
+defaults:
 - scope:
     path: ''
-    type: works
+    type: writing
   values:
     name:
     publication:
