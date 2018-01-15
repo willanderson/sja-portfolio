@@ -16,7 +16,7 @@ defaults:
     path: ''
     type: writing
   values:
-    name:
-    publication:
+    name: 
+    publication: 
     featured: false
     source: http://google.com
