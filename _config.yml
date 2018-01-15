@@ -11,6 +11,7 @@ collections:
   writing:
     title: Writing
     output: true
+defaults:    
 - scope:
     path: ''
     type: works
