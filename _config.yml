@@ -16,7 +16,7 @@ defaults:
     path: ''
     type: writing
   values:
-    title:
+    name:
     publication:
     date:
     url:
