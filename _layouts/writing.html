@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{% assign publication_names = site.archive | map: 'Publication' | uniq | sort %}
+<div class="bg-near-white">
+   {% for name in publication_names %}
+  <div class="w-100 h-auto ph4 pv2 pv4-l flex-l">
+    <div class="w-25-l w-100">
+        <h4 class="sans-serif normal off-black f4 lh-copy underline mv2 mb4">{{ name }}</h3>
+    </div>
+    <div class="w-75-l w-100 flex-column">
+    {% for article in site.archive %}
+    {% if article.Publication == name %}
+    <div class="w-100 flex-l mb4 mb2-l">
+      <div class="w-20-l w-100">
+        <h4 class="sans-serif normal light-silver f4 lh-copy mv2">{{ article.date | date: "%b %-d %Y" }}</h4>
+      </div>
+      <div class="w-80-l w-100">
+          <h4 class="sans-serif f4 mv2"><a class="normal off-black dim add-arrow no-underline" href="{{ article.source }}">{{ article.title }}</a></h4>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  </div>
+  {% endfor %}
+</div>

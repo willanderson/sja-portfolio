@@ -8,13 +8,14 @@ collections:
   uploads:
     title: Uploads
     output: true
-  writing:
+  archive:
     title: Writing
     output: true
+    permalink: "/writing/:path/"
 defaults:
 - scope:
     path: ''
-    type: writing
+    type: archive
   values:
-    Publication: 
+    Publication:
     Source: http://google.com

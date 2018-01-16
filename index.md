@@ -1,5 +1,6 @@
 ---
 layout: home
-text: Writer / Editor living in New York City
+highlight: "Writer / Editor"
+text:  " living in New York City"
+permalink: "/"
 ---
-
