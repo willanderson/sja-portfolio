@@ -5,7 +5,6 @@ categories:
 - Culture
 tags:
 - Dujour
-Publication: DuJour
+Publication: Dujour Magazine
 Source: http://dujour.com/culture/behind-exhibit-being-modern-moma-paris/
 ---
-

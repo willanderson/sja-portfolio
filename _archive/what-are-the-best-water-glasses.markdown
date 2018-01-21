@@ -2,7 +2,7 @@
 title: What Are the Best Water Glasses?
 date: 2018-01-21 21:59:00 Z
 Image: "/uploads/drinking-glasses-lede.w710.h473.2x.jpg"
-Publication: NEW YORK MAGAZINE
+Publication: New York Magazine
 Source: http://nymag.com/strategist/2017/03/best-drinking-glasses-for-everyday-use.html
 ---
 

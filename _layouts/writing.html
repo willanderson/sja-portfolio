@@ -1,24 +1,35 @@
 ---
 layout: default
 ---
-
-<<<<<<< HEAD
 <div class="bg-near-white pa4">
-  <div id="block-contain">
-    <div class="grid-sizer w-33-l w-100"></div>
-    <div class="block pa3 bg-white ba b--near-white w-33-l w-100">
+  <div class="grid">
+    {% assign sorted_work = site.archive | sort | reverse %}
+    {% for article in sorted_work %}
+    <div class="grid-item block pa3 bg-white ba b--near-white">
       <div class="inner">
-        <div class="top mb3"><img class="w-100" src="https://s3.amazonaws.com/external_clips/attachments/1650276/original/open-uri20180113-12002-1fdrhwg?1515868217" /></div>
+        <div class="top mb3"><img class="w-100" src="{{ article.Image }}" /></div>
         <div class="bottom flex flex-column">
-          <span class="sans-serif f7 ttu">Paper Mag</span>
-          <span class="sans-serif f3 mv2"><a class="normal off-black dim add-arrow no-underline">Jeffree Star Can't Be Covered Up</a></span>
+          <span class="sans-serif f7 ttu">{{article.Publication}}</span>
+          <span class="sans-serif f3 mv2"><a href="{{ article.Source}}" class="normal off-black dim add-arrow no-underline"> {{ article.title }}</a></span>
           <span class="sans-serif f6 mv2 off-black lh-copy">Even within the freaky, fabulous rainbow tapestry of queer culture, makeup mogul and male YouTube video vixen Jeffree Star is somewhat beyond compare</span>
-          <span class="sans-serif f7 light-silver mt3">Published on August 2, 2017</span>
+          <span class="sans-serif f7 light-silver mt3">Published on {{ article.date | date: "%b %-d %Y" }}</span>
         </div>
       </div>
     </div>
+    {% endfor %}
   </div>
-</div>
-=======
 
->>>>>>> 0e2bd5850f1269c0bcabd0af002de072424ca1f3
+  {% if paginator.total_pages > 1 %}
+  <ul>
+    {% if paginator.previous_page %}
+    <li>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+    </li>
+    {% endif %}
+  </ul>
+  {% endif %}

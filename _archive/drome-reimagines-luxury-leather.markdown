@@ -5,7 +5,6 @@ categories:
 - Fashion
 tags:
 - Dujour
-Publication: DuJour
+Publication: Dujour Magazine
 Source: http://dujour.com/news/drome-reimagines-leather-centric-luxury/
 ---
-

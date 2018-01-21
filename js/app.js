@@ -1,10 +1,22 @@
-var $grid = $('#block-contain').masonry({
-  itemSelector: '.block',
-  columnWidth: '.grid-sizer',
-  percentPosition: true,
-  transitionDuration: '0.2s'
-});
+$(document).ready(function() {
 
-$grid.imagesLoaded().progress( function() {
-  $grid.masonry('layout');
+    var macy = Macy({
+        container: '.grid',
+        trueOrder: false,
+        waitForImages: false,
+        margin: 16,
+        columns: 3,
+        breakAt: {
+            940: 2,
+            540: 1
+        }
+    });
+
+    $('.grid').infiniteScroll({
+        path: '.pagination__next',
+        append: '.post',
+        status: '.scroller-status',
+        scrollThresold: 100
+    });
+
 });

@@ -5,7 +5,6 @@ categories:
 - Fashion
 tags:
 - Dujour
-Publication: DuJour
+Publication: Dujour Magazine
 Source: http://dujour.com/style/yves-saint-laurent-heart-shaped-pendant/
 ---
-

@@ -2,7 +2,7 @@
 title: My Friend Dahmer
 date: 2018-01-21 21:47:00 Z
 Image: "/uploads/open-uri20180113-6424-14kfiu2.jpg"
-Publication: DUJOUR MAGAZINE
+Publication: Dujour Magazine
 Source: http://dujour.com/culture/actor-ross-lynch-my-friend-dahmer-interview/
 ---
 
