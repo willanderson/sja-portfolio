@@ -1,5 +1,6 @@
 ---
-layout: writing
 permalink: "/writing"
-highlight: "Writing "
+layout: writing
+highlight: 'Writing '
 ---
+
