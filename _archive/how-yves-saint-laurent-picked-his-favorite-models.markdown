@@ -8,3 +8,4 @@ tags:
 Publication: Dujour Magazine
 Source: http://dujour.com/style/yves-saint-laurent-heart-shaped-pendant/
 ---
+

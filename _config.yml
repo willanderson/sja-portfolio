@@ -2,6 +2,12 @@
 title: Sam Anderson
 timezone: UTC
 collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
   archive:
     title: Writing
     output: true
@@ -11,6 +17,6 @@ defaults:
     path: ''
     type: archive
   values:
-    Image:
-    Publication:
+    Image: 
+    Publication: 
     Source: http://google.com
