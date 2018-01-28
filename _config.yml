@@ -8,19 +8,14 @@ collections:
   uploads:
     title: Uploads
     output: true
-  articles:
-    title: Articles
-    output: true
-    permalink: "/articles/:path/"
 defaults:
 - scope:
     path: ''
-    type: archive
+    type: posts
   values:
-    Image:
-    Publication:
-    Source: http://google.com
-plugins:
-- jekyll-paginate
-paginate: 10
-paginate_path: "/writing/page:num"
+    image:
+    source: http://google.com
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/:num/'

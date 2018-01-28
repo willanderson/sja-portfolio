@@ -4,8 +4,7 @@ layout: default
 
 <div class="bg-near-white pa4">
   <div class="grid">
-    {% assign sorted_work = site.articles | sort | reverse %}
-    {% for article in sorted_work %}
+    {% for article in paginator.posts %}
     <div class="grid-item block pa3 bg-white ba b--near-white">
       <div class="inner">
         <div class="top mb3"><img class="w-100" src="{{ article.Image }}" /></div>
