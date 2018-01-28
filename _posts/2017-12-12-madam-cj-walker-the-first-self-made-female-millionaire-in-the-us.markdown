@@ -1,6 +1,6 @@
 ---
 title: Madam C.J. Walker, the First Self-Made Female Millionaire in the U.S.
-date: 2018-01-28 23:51:00 Z
+date: 2017-12-12 23:51:00 Z
 categories:
 - Mental_Floss
 image: "/uploads/open-uri20180113-11823-1y2acne-a2cc9f.png"
