@@ -2,6 +2,10 @@
 title: Sam Anderson
 timezone: UTC
 collections:
+  articles:
+    title: Articles
+    output: true
+    permalink: "/articles/:path/"
   posts:
     title: Posts
     output: true
