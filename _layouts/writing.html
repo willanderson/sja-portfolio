@@ -4,7 +4,7 @@ layout: default
 
 <div class="bg-near-white pa4">
   <div class="grid">
-    {% assign sorted_work = site.archive | sort | reverse %}
+    {% assign sorted_work = site.articles | sort | reverse %}
     {% for article in sorted_work %}
     <div class="grid-item block pa3 bg-white ba b--near-white">
       <div class="inner">
@@ -19,18 +19,3 @@ layout: default
     </div>
     {% endfor %}
   </div>
-
-  {% if paginator.total_pages > 1 %}
-  <ul>
-    {% if paginator.previous_page %}
-    <li>
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li>
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-    </li>
-    {% endif %}
-  </ul>
-  {% endif %}
