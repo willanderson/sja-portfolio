@@ -17,9 +17,9 @@ defaults:
     path: ''
     type: posts
   values:
-    image:
+    image: 
     source: http://google.com
 pagination:
   enabled: true
   per_page: 10
-  permalink: '/:num/'
+  permalink: "/:num/"
