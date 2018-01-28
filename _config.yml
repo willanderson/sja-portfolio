@@ -2,23 +2,23 @@
 title: Sam Anderson
 timezone: UTC
 collections:
+  articles:
+    title: Articles
+    output: true
+    permalink: "/articles/:path/"
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
-  articles:
-    title: Articles
-    output: true
-    permalink: "/articles/:path/"
 defaults:
 - scope:
     path: ''
     type: archive
   values:
-    Image:
-    Publication:
+    Image: 
+    Publication: 
     Source: http://google.com
 plugins:
 - jekyll-paginate
