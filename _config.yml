@@ -17,7 +17,7 @@ defaults:
     path: ''
     type: posts
   values:
-    image:
+    image: 
     source: http://google.com
 pagination:
   enabled: true
