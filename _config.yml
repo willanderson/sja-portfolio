@@ -13,9 +13,9 @@ defaults:
     path: ''
     type: posts
   values:
-    image:
+    image: 
     source: http://nymag.com/
 plugins:
 - jekyll-paginate
 paginate: 15
-paginate_path: /writing/page:num
+paginate_path: "/writing/page:num"
