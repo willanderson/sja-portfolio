@@ -1,6 +1,5 @@
 ---
-permalink: "/archive/"
+permalink: "/writing/list/"
 layout: archive
-highlight: 'Archive '
+highlight: 'Writing '
 ---
-

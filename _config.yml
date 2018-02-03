@@ -1,5 +1,5 @@
 ---
-title: Sam Anderson
+title: Samuel Anderson
 timezone: UTC
 collections:
   posts:
@@ -13,7 +13,7 @@ defaults:
     path: ''
     type: posts
   values:
-    image: 
+    image:
     source: http://nymag.com/
 plugins:
 - jekyll-paginate

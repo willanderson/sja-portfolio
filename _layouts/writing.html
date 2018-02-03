@@ -4,25 +4,12 @@ layout: default
 
 {% include subhero.html %}
 <div class="bg-near-white pa4 min-vh-100">
-  <div class="grid are-images-unloaded">
-    <div class="grid__col-sizer"></div>
-    <div class="grid__gutter-sizer"></div>
-    {% for article in paginator.posts %}
-      {% include grid-block.html %}
-    {% endfor %}
-  </div>
 
-  <div class="pagination">
-      {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="pagination__next">Next</a>
-      {% endif %}
-  </div>
-  <div class="page-load-status">
-      <div class="loader-ellips infinite-scroll-request">
-          <span class="loader-ellips__dot"></span>
-          <span class="loader-ellips__dot"></span>
-          <span class="loader-ellips__dot"></span>
-          <span class="loader-ellips__dot"></span>
-      </div>
-  </div>
+  {% include viewSwitch.html %}
+  {% if page.url == "/writing/" %}
+    {% include gridView.html %}
+  {% else %}
+    {% include listView.html %}
+  {% endif %}
+
 </div>
