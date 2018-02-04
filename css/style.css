@@ -92,6 +92,20 @@
   width: 32%;
 }
 
+
+@media screen and (max-width: 320px) {
+  /* 5 columns for larger screens */
+  .grid__item,
+  .grid__col-sizer { width: 100%; }
+}
+
+@media screen and (max-width: 768px) {
+  /* 5 columns for larger screens */
+  .grid__item,
+  .grid__col-sizer { width: 49%; }
+}
+
+
 .grid__gutter-sizer { width: 2%; }
 
 /* hide by default */
