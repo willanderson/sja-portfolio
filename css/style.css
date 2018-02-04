@@ -93,7 +93,7 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   /* 5 columns for larger screens */
   .grid__item,
   .grid__col-sizer { width: 100%; }
