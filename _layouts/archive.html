@@ -6,7 +6,7 @@ layout: default
 {% assign publication_names = site.posts | map: 'categories' | uniq | sort %}
 <div class="bg-near-white">
    {% for name in publication_names %}
-  <div class="w-100 h-auto ph4 pv2 pv4-l flex-l">
+  <div class="w-100 h-auto ph3 ph4-l pv2 pv4-l flex-l">
     <div class="w-25-l w-100">
         <h4 class="sans-serif normal off-black f4 lh-copy underline mv2 mb4">{{ name }}</h3>
     </div>
