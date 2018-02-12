@@ -6,6 +6,7 @@ categories:
 tags:
 - Interview
 - Film
+image: "/uploads/f4725a205760.jpg"
 source: http://dujour.com/culture/london-actor-daniel-kaluuya-get-out-black-panther-interview/
 ---
 
