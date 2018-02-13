@@ -7,6 +7,7 @@ tags:
 - Parties
 - Fashion
 - Reporting
+image: "/uploads/00-story-telfar-party.jpg"
 source: https://www.vogue.com/article/telfar-clemens-century-21-new-york-fashion-week
 ---
 
