@@ -6,19 +6,19 @@ layout: default
 {% assign publication_names = site.posts | map: 'categories' | uniq | sort %}
 <div class="bg-near-white">
    {% for name in publication_names %}
-  <div class="w-100 h-auto ph3 ph4-l pv2 pv4-l flex-l">
+  <div class="w-100 h-auto ph3 ph4-l pv2 pv4-l flex-l bb b--black-10 bb-ignore-last">
     <div class="w-20-l w-100">
-        <h4 id="{{name | remove: " " | downcase }}" class="sans-serif normal off-black f4 lh-copy underline mv2 mb4">{{ name }}</h3>
+        <h4 id="{{name | remove: " " | downcase }}" class="sans-serif normal off-black f4-l f3 lh-copy underline mv2-l mb4">{{ name }}</h3>
     </div>
     <div class="w-75-l w-100 flex-column">
     {% for article in site.posts %}
     {% if article.categories contains name %}
     <div class="w-100 flex-l mb4 mb2-l">
       <div class="w-20-l w-100">
-        <h4 class="sans-serif normal light-silver f4 lh-copy mv2">{{ article.date | date: "%b %-d %Y" }}</h4>
+        <h4 class="sans-serif normal lh-title light-silver v-base f6 lh-copy mv3-l mv0">{{ article.date | date: "%b %-d %Y" }}</h4>
       </div>
       <div class="w-80-l w-100">
-          <h4 class="sans-serif f4 mv2"><a class="normal off-black dim add-arrow no-underline" href="{{ article.source }}">{{ article.title }}</a></h4>
+          <h4 class="sans-serif f4 lh-copy mv2"><a class="normal off-black dim add-arrow no-underline" href="{{ article.source }}">{{ article.title }}</a></h4>
       </div>
     </div>
     {% endif %}
