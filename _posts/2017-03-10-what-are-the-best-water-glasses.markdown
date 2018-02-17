@@ -1,6 +1,6 @@
 ---
 title: What Are the Best Water Glasses?
-date: 2018-02-17 19:19:00 Z
+date: 2017-03-10 19:19:00 Z
 categories:
 - New York Magazine
 image: "/uploads/open-uri20170827-20207-1wd7vvd.jpg"
