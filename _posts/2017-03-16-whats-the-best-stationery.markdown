@@ -1,6 +1,6 @@
 ---
 title: What’s the Best Stationery?
-date: 2018-02-17 19:20:00 Z
+date: 2017-03-16 19:20:00 Z
 categories:
 - New York Magazine
 image: "/uploads/16-stationary-lede.w710.h473.2x-7ef531.jpg"
