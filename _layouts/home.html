@@ -6,7 +6,7 @@ layout: default
 <div class="bg-near-white">
   <div class="w-100 h-auto ph3 ph4-l pv5 flex-l flex-column-s">
       <div class="w-25-l w0">
-          <h4 class="sans-serif normal gray f5 lh-copy v-base mv0">Publications</h3>
+          <h4 class="sans-serif normal gray f5 lh-copy v-base mv0">Recent Clients</h3>
       </div>
       <div class="w-75-l w-100">
       {% assign publications = site.posts | map: 'categories' | uniq | sort %}
@@ -17,15 +17,15 @@ layout: default
       </ul>
     </div>
   </div>
-  <div class="w-100 h-auto ph3 ph4-l pv5 flex-l flex-column-s">
+  <div class="w-100 h-auto ph3 ph4-l pb5 flex-l flex-column-s">
       <div class="w-25-l w0">
           <h4 class="sans-serif normal gray f5 lh-copy mv0">Recent Work</h3>
       </div>
       <div class="w-75-l w100">
-      {% assign latest = site.posts | sort:"date" %}
+      {% assign latest = site.posts | sort:"date" | reverse %}
       <ul class="list pl0 sans-serif dib f3 mv0 off-black">
-        {% for article in latest limit:4 %}
-        <li class="dib mr3 lh-copy add-comma"><a class="dim off-black" href="{{article.source}}">{{article.title}}</a></li>
+        {% for article in latest limit:6 %}
+        <li class="dib lh-copy add-paranthese"><a class="dim off-black" href="{{article.source}}">{{article.title}}</a></li>
         {% endfor %}
       </ul>
     </div>
