@@ -6,30 +6,27 @@ layout: default
 <div class="bg-near-white">
   <div class="w-100 h-auto ph3 ph4-l pv5 flex-l flex-column-s">
       <div class="w-25-l w0">
-          <h4 class="sans-serif normal gray f5 lh-copy v-base">Publications</h3>
+          <h4 class="sans-serif normal gray f5 lh-copy v-base mv0">Publications</h3>
       </div>
       <div class="w-75-l w-100">
-      <ul class="list pl0 sans-serif dib f2 mv0 off-black">
-        <li class="dib mr3 lh-copy add-comma"><a class="dim off-black" href="#">Dujour Magazine</a></li>
-        <li class="dib mr3 lh-copy add-comma"><a class="dim off-black" href="#">New York Magazine</a></li>
-        <li class="dib mr3 lh-copy add-comma"><a class="dim off-black" href="#">V Magazine</a></li>
-        <li class="dib mr3 lh-copy add-comma"><a class="dim off-black" href="#">Vogue</a></li>
-        <li class="dib mr3 lh-copy add-comma"><a class="dim off-black" href="#">Vulture</a></li>
-        <li class="dib mr3 lh-copy add-comma"><a class="dim off-black" href="#">Architectural Digest</a></li>
-        <li class="dib mr3 lh-copy add-comma"><a class="dim off-black" href="#">Mental Floss</a></li>
+      {% assign publications = site.posts | map: 'categories' | uniq | sort %}
+      <ul class="list pl0 sans-serif dib f3 mv0 off-black">
+        {% for name in publications limit:10 %}
+        <li class="dib mr3 lh-copy add-comma"><a class="dim off-black" href="/archive#{{name | remove: " " | downcase }}">{{name}}</a></li>
+        {% endfor %}
       </ul>
     </div>
   </div>
   <div class="w-100 h-auto ph4 pv5 flex-l flex-column-s">
       <div class="w-25-l w0">
-          <h4 class="sans-serif normal gray f5 lh-copy v-base">Recent Work</h3>
+          <h4 class="sans-serif normal gray f5 lh-copy mv0">Recent Work</h3>
       </div>
       <div class="w-75-l w100">
-      <ul class="list pl0 sans-serif dib f2 mv0 off-black">
-        <li class="dib mr3 lh-copy add-comma"><a class="dim off-black" href="#">13 Health And Wellness Fanatics On What They Want For The Holidays</a></li>
-        <li class="dib mr3 lh-copy add-comma"><a class="dim off-black" href="#">Inside Art Basel Miami Beach</a></li>
-        <li class="dib mr3 lh-copy add-comma"><a class="dim off-black" href="#">Behind The Exhibit: Being Modern – Moma In Paris</a></li>
-        <li class="dib mr3 lh-copy add-comma"><a class="dim off-black" href="#">Our Top Cinematic Women</a></li>
+      {% assign latest = site.posts | sort:"date" %}
+      <ul class="list pl0 sans-serif dib f3 mv0 off-black">
+        {% for article in latest limit:4 %}
+        <li class="dib mr3 lh-copy add-comma"><a class="dim off-black" href="{{article.source}}">{{article.title}}</a></li>
+        {% endfor %}
       </ul>
     </div>
   </div>
