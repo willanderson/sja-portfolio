@@ -5,6 +5,7 @@ categories:
 - Dujour Magazine
 tags:
 - Art
+image: "/uploads/2ea25a96c602.jpg"
 source: http://dujour.com/culture/behind-exhibit-murakami-abloh-gagosian/
 ---
 
