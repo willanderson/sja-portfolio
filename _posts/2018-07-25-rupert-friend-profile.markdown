@@ -1,5 +1,5 @@
 ---
-title: Rupert Friend Profile
+title: Rupert Friend Cover Story
 date: 2018-07-25 11:57:00 Z
 categories:
 - Dujour Magazine
