@@ -1,6 +1,6 @@
 ---
 title: Why Hereditary Will Stay With You
-date: 2018-07-25 12:15:00 Z
+date: 2018-07-24 12:15:00 Z
 categories:
 - Dujour Magazine
 tags:
