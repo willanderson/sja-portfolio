@@ -1,6 +1,6 @@
 ---
 title: The Awakening Of Jaboukie Young-White
-date: 2019-01-25 05:01:00 Z
+date: 2018-10-31 05:01:00 Z
 categories:
 - VMan
 tags:
