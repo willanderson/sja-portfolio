@@ -9,7 +9,7 @@ layout: default
           <h4 class="sans-serif normal gray f5 lh-copy v-base mv0">Recent Clients</h3>
       </div>
       <div class="w-75-l w-100">
-      {% assign publications = site.posts | map: 'categories' | uniq | sort:'date' | reverse %}
+      {% assign publications = site.posts | map: 'categories' | uniq | sort:'date' %}
       <ul class="list pl0 sans-serif dib f3 mv0 off-black">
         {% for name in publications limit:10 %}
         <li class="dib mr3 lh-copy add-comma"><a class="dim off-black" href="/archive#{{name | remove: " " | downcase }}">{{name}}</a></li>
