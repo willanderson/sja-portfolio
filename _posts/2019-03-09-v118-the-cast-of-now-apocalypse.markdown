@@ -1,5 +1,5 @@
 ---
-title: 'V118: THE CAST OF ''NOW APOCALYPSE'''
+title: 'V118: The Cast of ''Now Apocalypse'''
 date: 2019-03-09 23:04:00 Z
 categories:
 - V Magazine
