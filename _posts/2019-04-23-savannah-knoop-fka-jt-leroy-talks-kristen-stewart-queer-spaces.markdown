@@ -1,5 +1,5 @@
 ---
-title: Savannah Knoop, Fka Jt Leroy, Talks Kristen Stewart, Queer Spaces
+title: Savannah Knoop, f.k.a. JT Leroy, Talks Kristen Stewart, Queer Spaces
 date: 2019-04-23 14:26:00 Z
 categories:
 - V Magazine
