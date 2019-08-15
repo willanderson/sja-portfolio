@@ -1,6 +1,6 @@
 ---
 title: 'Generation V: Vol. IV'
-date: 2019-08-15 16:21:00 Z
+date: 2019-06-15 16:21:00 Z
 categories:
 - V Magazine
 tags:
