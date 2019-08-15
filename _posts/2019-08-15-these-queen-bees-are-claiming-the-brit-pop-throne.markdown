@@ -1,5 +1,5 @@
 ---
-title: THESE QUEEN BEES ARE CLAIMING THE BRIT-POP THRONE
+title: 'Generation V: Vol. III'
 date: 2019-08-15 16:21:00 Z
 categories:
 - V Magazine
