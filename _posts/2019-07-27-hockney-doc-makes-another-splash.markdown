@@ -1,5 +1,5 @@
 ---
-title: HOCKNEY DOC MAKES ANOTHER SPLASH
+title: Hockney Doc Makes Another Splash
 date: 2019-07-27 16:47:00 Z
 categories:
 - V Magazine
