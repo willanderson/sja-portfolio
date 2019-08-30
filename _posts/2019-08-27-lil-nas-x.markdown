@@ -1,0 +1,12 @@
+---
+title: Lil Nas X
+date: 2019-08-27 12:39:00 Z
+categories:
+- VMan
+tags:
+- Music
+image: "/uploads/IMG_0480.jpg"
+source: https://vman.com/article/tour-diary-old-town-new-sheriff/
+---
+
+Old town, new sheriff.
