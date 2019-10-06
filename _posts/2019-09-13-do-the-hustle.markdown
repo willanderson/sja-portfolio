@@ -1,6 +1,6 @@
 ---
 title: Do the Hustle
-date: 2019-10-06 16:48:00 Z
+date: 2019-09-13 16:48:00 Z
 categories:
 - V Magazine
 tags:
