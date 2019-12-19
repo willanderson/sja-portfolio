@@ -5,7 +5,7 @@ categories:
 - V Magazine
 tags:
 - Music
-image: "/uploads/BIGFREEDIAcmyk.jpg"
+image: "/uploads/BIGFREEDIAcmyk-29d749.jpg"
 source: https://vmagazine.com/article/big-freedia-mother-of-bounce-music-shatters-glass-ceilings/
 ---
 
