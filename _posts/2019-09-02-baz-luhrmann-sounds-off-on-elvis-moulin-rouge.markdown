@@ -5,7 +5,7 @@ categories:
 - V Magazine
 tags:
 - Film
-image: "/uploads/bazblackandwhite.jpg"
+image: "/uploads/bazblackandwhite-c3c002.jpg"
 source: https://vmagazine.com/article/directors-cut-baz-lurhmann-moulin-rouge-the-musical/
 ---
 
