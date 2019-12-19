@@ -6,7 +6,7 @@ categories:
 tags:
 - Fashion
 - Interview
-image: "/uploads/VM41_NEWS_SAINT-LAURENT_MENSS19_BACKSTAGE_HR_1090.jpg"
+image: "/uploads/VM41_NEWS_SAINT-LAURENT_MENSS19_BACKSTAGE_HR_1090-c53ffa.jpg"
 source: https://vman.com/article/anthony-vaccarello-revisits-yvess-nyc-for-saint-laurent/
 ---
 
