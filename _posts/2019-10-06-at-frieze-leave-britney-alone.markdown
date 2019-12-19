@@ -5,7 +5,7 @@ categories:
 - GARAGE
 tags:
 - Art
-image: "/uploads/GARAGE.png"
+image: "/uploads/GARAGE.jpg"
 source: https://garage.vice.com/en_us/article/8xwvbp/at-frieze-leave-britney-alone
 ---
 
