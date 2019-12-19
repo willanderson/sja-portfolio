@@ -5,7 +5,7 @@ categories:
 - V Magazine
 tags:
 - Television
-image: "/uploads/Euphoria.jpg"
+image: "/uploads/Euphoria-75200f.jpg"
 source: https://vmagazine.com/article/hbos-euphoria-is-the-real-talk-we-need/
 ---
 
