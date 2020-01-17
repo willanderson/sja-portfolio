@@ -6,6 +6,7 @@ categories:
 - Input
 tags:
 - Essay
+image: "/uploads/Screen%20Shot%202020-01-17%20at%208.55.41%20AM.png"
 source: https://www.inputmag.com/features/you-need-a-budget-app-family-communication
 ---
 
