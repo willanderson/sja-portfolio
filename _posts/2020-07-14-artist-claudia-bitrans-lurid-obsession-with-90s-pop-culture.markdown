@@ -9,4 +9,4 @@ image: "/uploads/download.jpeg"
 source: https://www.artsy.net/article/artsy-editorial-artist-claudia-bitrans-lurid-obsession-90s-pop-culture
 ---
 
-Interview
+Interview with Chilean-American painter and performance artist Claudia Bitran.
