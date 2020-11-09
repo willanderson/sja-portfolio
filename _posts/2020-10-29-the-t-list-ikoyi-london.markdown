@@ -1,6 +1,6 @@
 ---
 title: 'The T List: Ikoyi London'
-date: 2020-11-29 14:51:00 Z
+date: 2020-10-29 14:51:00 Z
 categories:
 - T Magazine
 tags:
