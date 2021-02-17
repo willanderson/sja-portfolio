@@ -1,6 +1,6 @@
 ---
 title: Tracing Studio Ghibli’s Hayao Miyazaki’s Influence on Contemporary Art
-date: 2021-02-17 16:18:00 Z
+date: 2021-02-17 10:00:00 Z
 categories:
 - AnOther
 tags:
