@@ -1,6 +1,6 @@
 ---
 title: Can Porn Be Art?
-date: 2021-05-12 00:24:00 Z
+date: 2021-04-01 00:24:00 Z
 categories:
 - Grindr
 tags:
