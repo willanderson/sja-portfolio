@@ -7,7 +7,7 @@ tags:
 - LGBTQ
 - Review
 - Essay
-image: "/uploads/199_001.jpeg"
+image: "/uploads/Part3.2Barcelona27%20copy-Edit.jpg"
 source: https://www.grindrbloop.com/zine/2021/gay-porn-art
 ---
 
