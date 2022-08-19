@@ -1,5 +1,5 @@
 ---
-title: Eckhaus Latta at Whitney
+title: Eckhaus Latta at the Whitney
 date: 2018-08-03 02:11:00 Z
 categories:
 - V Magazine
